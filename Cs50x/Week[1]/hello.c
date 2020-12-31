@@ -6,9 +6,9 @@ int main(void)
     string name = get_string("whats your name\n");
     printf("hello, %s\n",name );
     
-    int i =get_int("How old are you: ");
-    printf("Age:, %i\n",i);
+    int x =get_int("How old are you: ");
+    printf("Age:, %i\n",x);
 
-    float f =get_float("Float: ");
-    printf("hello ,%f\n",f) ;
+    float y =get_float("Float: ");
+    printf("hello ,%f\n",y) ;
 }
